@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "private": true,
+
+  "main": "server_14.js",
+  "scripts": {
+    "start": "nodemon server_14.js",
+
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1191.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.30.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "~4.16.1",
+    "express-async-handler": "^1.2.0",
+    "fcm-node": "^1.6.1",
+    "firebase-admin": "^11.0.0",
+    "firebase-functions": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.3",
+    "mongoose-double": "^0.0.1",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.16",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  }
+}
